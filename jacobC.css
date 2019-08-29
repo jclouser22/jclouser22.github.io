@@ -1,0 +1,49 @@
+body {
+	background-color: #660000;
+}
+header {
+	background-color: #663300;
+	background-image: url("jc.jpg");
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	height: 112px;
+	padding: 5px;
+	padding-left: 20px;
+}
+footer {
+	background-color: #000099;
+	color: #b35900;
+	font-family: Verdana, Arial;
+	text-align: center;
+	font-size: 90%;
+	padding: 5px;
+}
+#content {
+	background-color: #336600;
+	padding: 15px;
+	min-height: 300px;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #663300;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px black;
+}
+h1 {
+	color: #b35900;
+	font-size: 300%;
+	font-family: Cambria,Courier;
+}
+h2 {
+	color: #000000;
+	font-family: Verdana, Arial;
+}
+.floatImg {
+	float: left;
+	margin: 0px 10px;
+}
